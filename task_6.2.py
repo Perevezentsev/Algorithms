@@ -19,9 +19,7 @@ while a != b:
         print('Введенное число меньше загаданного')
     n += 1
     if n == NUMBER_OF_TRIES:
-        print(f'Проигрыш. Загаданное число: {a}')
         break
     b = int(input(f'Введите число от {START} до {FINISH} : '))
 
-if a == b:
-    print(f'Выигрыш ! Загаданное число: {b}')
+print(f'Загаданное число: {a}')
