@@ -6,7 +6,7 @@ import random
 
 START = 0
 FINISH = 100
-NUMBER_OF_TRIES = 10
+QTY_OF_TRIES = 10
 n = 0
 
 a = random.randint(START, FINISH)
@@ -18,7 +18,7 @@ while a != b:
     else:
         print('Введенное число меньше загаданного')
     n += 1
-    if n == NUMBER_OF_TRIES:
+    if n == QTY_OF_TRIES:
         break
     b = int(input(f'Введите число от {START} до {FINISH} : '))
 
