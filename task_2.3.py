@@ -19,4 +19,4 @@ for i in range(0, quantity):
         even_indexes_list.append(i)
 
 print(main_list)
-print(even_indexes_list)
+print(f'Четные номера в массиве находятся на позициях: {even_indexes_list}')
