@@ -29,5 +29,5 @@ for i in companies:
 print(f'Годовая прибыль следующих предприятий больше средней:')
 
 for i in companies:
-    if companies[i] >= average:
+    if companies[i] > average:
         print(i)
