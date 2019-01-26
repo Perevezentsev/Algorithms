@@ -1,1 +1,2 @@
-# Homeworks from Algorithms cource
+###Algorithms
+Homeworks from Algorithms cource
