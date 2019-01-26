@@ -1,2 +1,2 @@
-###Algorithms
+#Algorithms
 Homeworks from Algorithms cource
